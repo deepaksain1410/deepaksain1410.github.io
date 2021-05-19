@@ -1,0 +1,59 @@
+.topline {
+	line-height: 1em;
+    font: italic bold Georgia, serif;
+    text-align: right;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    height: 20px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.info {
+	text-align: left;
+	font: italic bold;
+	text-transform: uppercase;
+	line-height: 40px;
+    font-size: 1.8em;
+    color: #4CAF50;
+    background-color: black;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    height: 10%;
+    float: right;
+}
+
